@@ -1,21 +1,21 @@
-let age = 14;
+const age = 14;
 console.log(age);
 
-let name = 'DIANA';
+const name = 'DIANA';
 console.log(name);
 
-let isStudent1 = undefined == null;
-let isStudent2 = undefined === null;
+const isStudent1 = undefined == null;
+const isStudent2 = undefined === null;
 console.log('якщо мається на увазі тільки студент коледжу, то' + isStudent2 + ' якщо ж можно мати на увазі goit, то' +isStudent1 +' ')
 
-let myString = 'My favorit quote';
+const myString = 'My favorit quote';
 console.log(myString);
 
-let myNumber = NaN;
-myNumber+=5;
-console.log(myNumber + '(typeof(NaN) --> Number)');
+// const myNumber = NaN;
+// myNumber+=5;
+// console.log(myNumber + '(typeof(NaN) --> Number)');
 
-let myNull = null;
+const myNull = null;
 console.log(myNull);
 
 function quest7 () {
