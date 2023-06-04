@@ -19,12 +19,12 @@ const myNull = null;
 console.log(myNull);
 
 function quest7 () {
-    let name7 = prompt('your name = ?',"");
+    const name7 = prompt('your name = ?',"");
     alert("HI" + name7 + "!");
 }
 
 function quest8 (){
-    let Confirm = confirm('do you confirm');
+    const Confirm = confirm('do you confirm');
     if (confirm) {
         alert('thanks for the confirmation');
     }
@@ -35,7 +35,7 @@ function quest8 (){
 
 function lastquest (){
     alert("Action unsafe");
-    let lastConfirm = confirm("you confirm the action?");
+    const lastConfirm = confirm("you confirm the action?");
     if (lastConfirm) {
         alert("YES");
     }
