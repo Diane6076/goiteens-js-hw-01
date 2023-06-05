@@ -4,16 +4,15 @@ console.log(age);
 const name = 'DIANA';
 console.log(name);
 
-const isStudent1 = undefined == null;
-const isStudent2 = undefined === null;
-console.log('якщо мається на увазі тільки студент коледжу, то' + isStudent2 + ' якщо ж можно мати на увазі goit, то' +isStudent1 +' ')
+const isStudent1 = undefined == true;
+console.log(' якщо ж можно мати на увазі goit, то' +isStudent1 +' ')
 
 const myString = 'My favorit quote';
 console.log(myString);
 
-// const myNumber = NaN;
-// myNumber+=5;
-// console.log(myNumber + '(typeof(NaN) --> Number)');
+const myNumber = 10;
+myNumber +=5;
+console.log(myNumber + '(typeof(10) --> Number)');
 
 const myNull = null;
 console.log(myNull);
