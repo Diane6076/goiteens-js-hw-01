@@ -17,28 +17,22 @@ console.log(myNumber + '(typeof(10) --> Number)');
 const myNull = null;
 console.log(myNull);
 
-function quest7 () {
-    const name7 = prompt('your name = ?',"");
-    alert("HI" + name7 + "!");
-}
+const userName = prompt("Ведіть ваше ім'я", '');
+alert('DI' + userName);
 
-function quest8 (){
-    const Confirm = confirm('do you confirm');
+const Confirm = confirm('do you confirm');
     if (confirm) {
-        alert('thanks for the confirmation');
-    }
-    else if (!confirm) {
-        alert('undo action');
-    }
-}
+       alert('thanks for the confirmation');}
 
-function lastquest (){
-    alert("Action unsafe");
-    const lastConfirm = confirm("you confirm the action?");
-    if (lastConfirm) {
+    else if (!confirm) {
+       alert('undo action'); };
+
+
+alert("Action unsafe");
+const lastConfirm = confirm("you confirm the action?");
+     if (lastConfirm) {
         alert("YES");
-    }
+}
     else if (!lastConfirm) {
         alert('undo action');
-    }
-}
+};
