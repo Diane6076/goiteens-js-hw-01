@@ -10,15 +10,15 @@ console.log(' якщо ж можно мати на увазі goit, то' +isStu
 const myString = 'My favorit quote';
 console.log(myString);
 
-const myNumber = 10;
-myNumber +=5;
-console.log(myNumber + '(typeof(10) --> Number)');
+// const myNumber = 10;
+// myNumber +=5;
+// console.log(myNumber + '(typeof(10) --> Number)');
 
 const myNull = null;
 console.log(myNull);
 
 const userName = prompt("Ведіть ваше ім'я", '');
-alert('DI' + userName);
+alert('thanks' + userName);
 
 const Confirm = confirm('do you confirm');
     if (confirm) {
